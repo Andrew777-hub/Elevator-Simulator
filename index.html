@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Elevator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div class="building">
+        <div class="floor">10</div>
+        <div class="floor">9</div>
+        <div class="floor">8</div>
+        <div class="floor">7</div>
+        <div class="floor">6</div>
+        <div class="floor">5</div>
+        <div class="floor">4</div>
+        <div class="floor">3</div>
+        <div class="floor">2</div>
+        <div class="floor">1</div>
+        <div class="elevator-shaft">
+            <div class="elevator" id="elevator">
+              <div class="elevator-door"></div>
+            </div>
+      </div>
+      <div class="dial">
+        <input type="text" placeholder="1" id="display" readonly>
+        <div class="buttons">
+            <div class="buttons">
+                <button onclick="appendToResult('5')"data-floor="5">5</button>
+                <button onclick="appendToResult('10')"data-floor="10">10</button>
+                <br>
+                <button onclick="appendToResult('4')"data-floor="4">4</button>
+                <button onclick="appendToResult('9')"data-floor="9">9</button>
+                <br>
+                <button onclick="appendToResult('3')"data-floor="3">3</button>
+                <button onclick="appendToResult('8')"data-floor="8">8</button>
+                <br>
+                <button onclick="appendToResult('2')"data-floor="2">2</button>
+                <button onclick="appendToResult('7')"data-floor="7">7</button>
+                <br>
+                <button onclick="appendToResult('1')"data-floor="1">1</button>
+                <button onclick="appendToResult('6')"data-floor="6">6</button>
+            </div>
+    </div>
+</body>
+</html>
+
+    
+
+
